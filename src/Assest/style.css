@@ -1,0 +1,71 @@
+/* ---- Geral ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+  
+  body {
+    background-color: #242940;
+    color: #FFF;
+}
+
+
+/* ---- Header ----*/
+
+
+h1 {
+    color: #FFF;
+    margin-top: 4rem;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    margin: 2rem;
+    text-align: justify;
+}
+
+#largura {
+    width: 20rem;
+}
+
+#resp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#respostas {
+    width: 25rem;
+    height: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    width: 6rem;
+    color: #FFF;
+    height: 3rem;
+    margin-left: 5rem;
+}
+
+.botao {
+    text-align: center;
+}
+
+.box {
+    width: 139px;
+	display: inline-block;
+}
+
+.btn {
+    color: #FFF;
+    width: 20rem;
+}
+

@@ -1,0 +1,34 @@
+/* GERAL 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+  
+  body {
+    background-color: #242940;
+    color: #FFF;
+  }
+  
+   
+   Score Container 
+  
+  .questions h4 {
+    text-align: center;
+  }
+
+  #InputResp {
+    display: flex; /* display mostra como será na tela 
+    align-items: center;  essa propriedade só existe quando o display é flex 
+    justify-content: center;
+  } 
+
+  textarea {
+    resize: none;  /*serve pra não deixar o usuário nã aumentar e nem diminuir esse campo
+  } 
+  */
+  
+
+
+  
