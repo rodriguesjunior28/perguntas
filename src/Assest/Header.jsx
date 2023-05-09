@@ -38,7 +38,8 @@ function Header() {
                     <input type="text" placeholder="Escola" id="largura"
                         value={escola} // aqui é como se fosse o placeholder fica setado o (nome) sempre que não colocar nada. Ele vem da useState('Nome)
                         required
-                        onChange={(e) => setEscola(e.target.value)} />
+                        onChange={(e) => setEscola(e.target.value)} 
+                    />
                 </div>
                 <div>
                     <label> Data: </label>
@@ -46,21 +47,24 @@ function Header() {
                         value={data} // aqui é como se fosse o placeholder fica setado o (nome) sempre que não colocar nada. Ele vem da useState('Nome)
                         required
                         maxLength={10}
-                        onChange={(e) => setData(e.target.value)} />
+                        onChange={(e) => setData(e.target.value)} 
+                    />
                 </div>
                 <div>
                     <label> Aluno: </label>
                     <input type="text" placeholder="Nome Completo" id="largura"
                         value={aluno} // aqui é como se fosse o placeholder fica setado o (nome) sempre que não colocar nada. Ele vem da useState('Nome)
                         required
-                        onChange={(e) => setAluno(e.target.value)} />
+                        onChange={(e) => setAluno(e.target.value)} 
+                    />
                 </div>
                 <div>
                     <label> Professora: </label>
                     <input type="text" placeholder="Nome Completo" id="largura"
                         value={professora}
                         required
-                        onChange={(e) => setProfessora(e.target.value)} />
+                        onChange={(e) => setProfessora(e.target.value)}
+                    />
                 </div>
                 <h1 style={{ textAlign: "center" }}> QUESTIONÁRIO </h1>
                 <br></br>
@@ -76,19 +80,23 @@ function Header() {
                     Exiba abaixo cada item do array.
                 </p>
                 <div>
-                    <label id="resp" > Resposta1: </label>
+                    <label id="resp"> Resposta1: </label>
                     <input type="text" placeholder="" id="respostas"
                         value={resposta1}
                         required
-                        onChange={(e) => setResposta1(e.target.value)} />
+                        onChange={(e) => setResposta1(e.target.value)} 
+                    />
                 </div>
                 <br></br>
                 <h4> Calcule os preços </h4>
-                <p> 2 - Você foi a uma lanchonete e gostaria de comprar um sanduíche, uma batata frita e um refrigerante, mas não sabia se seu dinheiro seria suficiente. Para descobrir se você tem saldo para pagar pelo pedido, some os valores dos produtos:
+                <p> 2 - Você foi a uma lanchonete e gostaria de comprar um sanduíche, uma batata frita e um refrigerante, 
+                    mas não sabia se seu dinheiro seria suficiente. Para descobrir se você tem saldo para pagar pelo pedido, 
+                    some os valores dos produtos:
 
                     <mark style={{ backgroundColor: "salmon", color: "black" }}>Sanduíche - R$ 10;
                         Batata frita - R$ 12;
-                        Refrigerante - R$ 8</mark>.
+                        Refrigerante - R$ 8
+                    </mark>.
                     Os valores dos produtos foram salvos dentro de um array na variável valoresProdutos:
 
                     const valoresProdutos = [10, 12, 8]; // array com o preço dos produtos
@@ -97,15 +105,17 @@ function Header() {
                     Armazene a soma dos valores na variável somaTotal e exiba o resultado abaixo.
                 </p>
                 <div>
-                    <label id="resp" > Resposta2: </label>
+                    <label id="resp"> Resposta2: </label>
                     <input type="text" placeholder="" id="respostas"
                         value={resposta2}
                         required
-                        onChange={(e) => setResposta2(e.target.value)} />
+                        onChange={(e) => setResposta2(e.target.value)} 
+                    />
                 </div>
                 <br></br>
                 <h4> Adicione um item no array com push + (o push + é pra empurrar ou acresentar e não de puxar). </h4>
-                <p> 3 - Mario decidiu fazer uma salada de frutas e precisa comprar banana, maçã, mamão e goiaba. Ele criou uma lista com JavaScript para guardar esses valores:
+                <p> 3 - Mario decidiu fazer uma salada de frutas e precisa comprar banana, maçã, mamão e goiaba. 
+                    Ele criou uma lista com JavaScript para guardar esses valores:
 
                     const listaDeFrutas = ['banana', 'maçã', 'mamão', 'goiaba'];
                     Mario esqueceu de adicionar ‘manga’ em sua lista e precisa da sua ajuda para resolver esse problema:
@@ -119,7 +129,8 @@ function Header() {
                     <input type="text" placeholder="" id="respostas"
                         value={resposta3}
                         required
-                        onChange={(e) => setResposta3(e.target.value)} />
+                        onChange={(e) => setResposta3(e.target.value)} 
+                    />
                 </div>
                 <br></br>
                 <h4> Multiplique números: faça a tabuada do 3 e do 7 </h4>
@@ -130,7 +141,8 @@ function Header() {
                     Você terá como multiplicando os números 3 e 7 e como multiplicadores os números de 1 a 9.
 
                     Exiba todas as operações com seus respectivos resultados no console do seu navegador.
-                    De olho na dica 👀 : Para exibir as operações no console do seu navegador, você pode utilizar duas estruturas de repetição for aninhadas, que vão percorrer item a item. 
+                    De olho na dica 👀 : Para exibir as operações no console do seu navegador, 
+                    você pode utilizar duas estruturas de repetição for aninhadas, que vão percorrer item a item. 
                     Para começar, você pode usar a constante multiplicador dada a seguir:
 
                     const multiplicador = [3, 7];
