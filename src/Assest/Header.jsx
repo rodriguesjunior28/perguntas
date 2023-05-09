@@ -123,19 +123,21 @@ function Header() {
                 </div>
                 <br></br>
                 <h4> Multiplique números: faça a tabuada do 3 e do 7 </h4>
-                <p> 4 - João precisa ajudar sua filha Maria a estudar a tabuada do 3 e do 7, e teve a ideia de usar a tecnologia ao seu favor, contudo precisa da sua ajuda:
+                <p> 4 - João precisa ajudar sua filha Maria a estudar a tabuada do 3 e do 7, 
+                    e teve a ideia de usar a tecnologia ao seu favor, contudo precisa da sua ajuda:
 
-                    Desenvolva um algoritmo que multiplique os números de 1 a 9 pelos números 3 e 7. Você terá como multiplicando os números 3 e 7 e como multiplicadores os números de 1 a 9.
+                    Desenvolva um algoritmo que multiplique os números de 1 a 9 pelos números 3 e 7. 
+                    Você terá como multiplicando os números 3 e 7 e como multiplicadores os números de 1 a 9.
 
                     Exiba todas as operações com seus respectivos resultados no console do seu navegador.
-                    De olho na dica 👀 : Para exibir as operações no console do seu navegador, você pode utilizar duas estruturas de repetição for aninhadas, que vão percorrer item a item. Para começar, você pode usar a constante multiplicador dada a seguir:
+                    De olho na dica 👀 : Para exibir as operações no console do seu navegador, você pode utilizar duas estruturas de repetição for aninhadas, que vão percorrer item a item. 
+                    Para começar, você pode usar a constante multiplicador dada a seguir:
 
                     const multiplicador = [3, 7];
 
                     O resultado deve ter um retorno como esse:
+                </p>
 
-                    <br></br><br></br>
-                    
                     <div className="box">
                         <p> 3 x 1 = 3
                             3 x 2 = 6
@@ -160,8 +162,7 @@ function Header() {
                             7 x 9 = 63
                         </p>
                     </div>
-                    
-                    <br></br>
+                <p>
                     (DICA) Quando for desenvolver o segundo for utilize os números de 1 a 9.
                 </p>
                 <div>
@@ -169,7 +170,8 @@ function Header() {
                     <input type="text" placeholder="" id="respostas"
                         value={resposta4}
                         required
-                        onChange={(e) => setResposta4(e.target.value)} />
+                        onChange={(e) => setResposta4(e.target.value)}
+                    />
                 </div>
                 <br></br>
                 <div className="botao">
