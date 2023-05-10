@@ -14,7 +14,6 @@ function Header() {
     const [resposta4, setResposta4] = useState("");
 
 
-
     const enviar = (e) => {
         e.preventDefault();
         console.log(`Escola ${escola}`);
