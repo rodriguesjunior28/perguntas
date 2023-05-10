@@ -126,11 +126,14 @@ function Header() {
                 </p>
                 <div>
                     <label id="resp"> Resposta3: </label>
-                    <input type="text" placeholder="" id="respostas"
-                        value={resposta3}
+                    <textarea
+                        placeholder="" 
+                        id="respostas"
                         required
                         onChange={(e) => setResposta3(e.target.value)} 
-                    />
+                    >
+                        {resposta3}
+                    </textarea>
                 </div>
                 <br></br>
                 <h4> Multiplique números: faça a tabuada do 3 e do 7 </h4>
@@ -179,11 +182,14 @@ function Header() {
                 </p>
                 <div>
                     <label id="resp"> Resposta4: </label>
-                    <input type="text" placeholder="" id="respostas"
-                        value={resposta4}
+                    <textarea
+                        placeholder="" 
+                        id="respostas"
                         required
                         onChange={(e) => setResposta4(e.target.value)}
-                    />
+                    >
+                        {resposta4}
+                    </textarea>
                 </div>
                 <br></br>
                 <div className="botao">
