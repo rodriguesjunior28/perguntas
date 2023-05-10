@@ -126,7 +126,7 @@ function Header() {
                     <label id="resp"> Resposta3: </label>
                     <textarea
                         placeholder="" 
-                        id="respostas"
+                        id="respostas"      /* não precisa colocar o type quando tem textarea */
                         required
                         onChange={(e) => setResposta3(e.target.value)} 
                     >
