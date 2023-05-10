@@ -25,7 +25,6 @@ function Header() {
         console.log(`resposta2 ${resposta2}`);
         console.log(`resposta3 ${resposta3}`);
         console.log(`resposta4 ${resposta4}`);
-
     }
 
 
